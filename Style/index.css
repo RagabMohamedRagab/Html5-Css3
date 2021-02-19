@@ -1,0 +1,526 @@
+/*Nice Day For You*/
+/*Start Header*/
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  z-index: 100;
+  background-image: url("../img/infinite-loop-01.jpg");
+  background-size: cover;
+}
+
+.container_Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  position: fixed;
+  z-index: 0;
+  width: 100%;
+  height: 72px;
+  left: 0px;
+
+}
+.container_head {
+  flex-basis: 30%;
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  color:#fff
+}
+
+.container_head:hover {
+  color: #f1600b;
+}
+
+.conatiner_Links {
+  flex-basis: 50%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.conatiner_Links li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.conatiner_Links li a {
+  padding: 15px;
+}
+
+.conatiner_Links li a:hover {
+  background-color: #335577;
+}
+
+.section_Home {
+  -webkit-transform: translate(110%, 100%);
+  transform: translate(110%, 100%);
+  width: 30%;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.section_Home h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.6rem;
+}
+
+.section_Home p {
+  font-size: 1.5rem;
+  margin: 10px 0px 10px 0px;
+}
+
+.section_Home span {
+  display: block;
+  width: 22%;
+  margin: 20px auto;
+  background-color: #335577;
+  height: 36px;
+  line-height: 5px;
+}
+
+.section_Home span:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.section_Home span i {
+  font-size: 1.5rem;
+  position: relative;
+  top: 0px;
+  animation: Run 0.6s ease-in-out infinite;
+}
+
+@keyframes Run {
+  0% {
+    top: 2px;
+  }
+
+  25% {
+    top: 4px;
+  }
+
+  50% {
+    top: 6px;
+  }
+
+  75% {
+    top: 8px;
+  }
+
+  100% {
+    top: 10px;
+  }
+}
+
+/*End Header*/
+/*Start Section*/
+article:first-of-type {
+  margin: 60px 0px 20px 0px;
+}
+
+.What_We {
+  display: flex;
+  flex-direction: column;
+}
+
+.What_We_Text h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: #3377aa;
+  font-size: 1.6rem;
+}
+
+.What_We_Text p {
+  margin: 15px 0px 10px 0px;
+  line-height: 2rem;
+  color: #8c8c8c;
+  text-transform: capitalize;
+  width: 85%;
+  font-weight: 500;
+}
+
+.What_We_Text p span {
+  color: #3377aa;
+  font-weight: bold;
+}
+
+.What_We_Content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px 0px 30px 0px;
+}
+
+.What_We_Content section {
+  flex-basis: 42%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 20px 0px;
+}
+
+.What_We_Content section i {
+  font-size: 3rem;
+  color: #3377aa;
+}
+
+.What_We_Content section div {
+  margin: 0px 0px 0px 35px;
+}
+
+.What_We_Content section div h1 {
+  color: #3377aa;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 4px 0px 14px 0px;
+  font-size: 2.4rem;
+}
+
+.What_We_Content section div p {
+  color: #8c8c8c;
+  text-transform: capitalize;
+  line-height: 2rem;
+}
+
+.What_We_Content section div button {
+  border: none;
+  outline: none;
+  padding: 15px;
+  background-color: #227dc4;
+  color: #fff;
+  font-weight: bold;
+  width: 110px;
+  margin: 30px 0px 10px 0px;
+  text-transform: capitalize;
+}
+
+.What_We_Content section div button:hover {
+  background-color: #3377aa;
+}
+
+/*End Section*/
+/*Start Testimonials*/
+article:nth-of-type(2) {
+  position: relative;
+  background-image: url('../img/infinite-loop-01.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+.testimonial {
+  padding: 20px 0px 20px 0px;
+}
+
+.testimonial_Head {
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0px 25px 0px;
+}
+
+.testimonial_Head p:first-of-type {
+  color: #fff;
+  font-size: 3rem;
+  margin: 20px 0px 25px 0px;
+}
+
+.testimonial_Head p:last-of-type {
+  width: 60%;
+  margin: auto;
+  text-transform: capitalize;
+  color: #fff;
+  line-height: 1.4rem;
+}
+
+.testmonial_Person {
+  display: flex;
+  text-align: center;
+  margin: 10px 0px 50px 0px;
+  justify-content: space-between;
+
+}
+
+.testmonial_Person section {
+  margin-left: 30px;
+}
+
+.testmonial_Person section img {
+  border-radius: 50%;
+}
+
+.testmonial_Person section blockquote {
+  color: #fff;
+  line-height: 1.8rem;
+  text-transform: capitalize;
+}
+
+.testmonial_Person section span {
+  margin: 13px 0px 0px 0px;
+  color: #fff;
+  text-align: right;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.testimonial ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.testimonial ul li {
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.testimonial ul li:first-of-type {
+  background-color: rgb(190, 186, 186);
+}
+
+/*End Testimonials*/
+/*Start Gallery*/
+.Gallery_Header {
+  margin: 50px 0px 50px 0px;
+  text-align: center;
+
+
+}
+
+.Gallery_Header h4 {
+  font-size: 2rem;
+  color: #3377aa;
+}
+
+.Gallery_Header p {
+  width: 65%;
+  margin: auto;
+  color: #8C8C8C;
+  line-height: 1.5rem;
+  margin-top: 15px;
+}
+
+.Gallery {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 10% 0px 10% 0px;
+}
+
+.Gallery section {
+  width: 284px;
+  height: 300px;
+  position: relative;
+  margin-left: 5px;
+  z-index: 1;
+  margin-bottom: 20px;
+
+}
+
+.Gallery section:first-of-type {
+  background-image: url('../img/01.jpg');
+  background-size: cover;
+
+}
+
+.Gallery section:nth-of-type(2) {
+  background-image: url('../img/02.jpg');
+  background-size: cover;
+}
+
+.Gallery section:nth-of-type(3) {
+  background-image: url('../img/03.jpg');
+  background-size: cover;
+}
+
+.Gallery section:nth-of-type(4) {
+  background-image: url('../img/04.jpg');
+  background-size: cover;
+}
+
+.Gallery section:nth-of-type(5) {
+  background-image: url('../img/05.jpg');
+  background-size: cover;
+}
+
+.Gallery section:last-of-type {
+  background-image: url('../img/06.jpg');
+  background-size: cover;
+}
+
+.Gallery section p {
+  position: absolute;
+  z-index: 3;
+  color: #f1600b;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+}
+
+.Gallery section p strong {
+  color: #3377aa;
+}
+
+.Gallery section p:first-of-type {
+  bottom: 25%;
+  right: 89px;
+  left: 25px;
+}
+
+.Gallery section:nth-of-type(6) p:first-of-type {
+  width: 54%;
+}
+
+.Gallery section p:last-of-type {
+  height: 0px;
+  background-color: #3377aa;
+  width: 100%;
+  bottom: 0px;
+
+}
+
+.Overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(3, 3, 3);
+  opacity: .8;
+  z-index: 2;
+  top:0px;
+  left: 0px;
+}
+
+.Overlay:hover {
+  opacity: 0.6;
+}
+
+.Gallery section img {
+  width: 281px;
+  height: 330px
+}
+
+.Gallery section:hover p:first-of-type,
+.Gallery section:hover p:last-of-type {
+  opacity: 1;
+}
+
+.Gallery section:hover p:last-of-type {
+  height: 20px;
+}
+
+/*End Gallery*/
+/*Start Footer*/
+footer {
+  background-image: url('../img/infinite-loop-02-mobile.jpg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding:25px 0px 25px 0px
+
+}
+
+.Footer_Header {
+  text-align: center;
+  margin: 15px 0px 15px 0px;
+  color: #fff
+}
+
+.Footer_Header h2 {
+  margin: 42px 0px 21px 0px;
+
+}
+
+.Footer_Header p {
+  width: 79%;
+  margin:20px auto;
+  line-height: 1.6rem;
+}
+
+.Footer_Content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.left_Side {
+  flex-basis: 40%;
+}
+
+.left_Side input,
+.left_Side textarea {
+  display: block;
+}
+
+.left_Side input[type='text'] ,.left_Side input[type='email'],.left_Side textarea{
+  border: none;
+  outline: none;
+  width: 80%;
+  padding: 10px;
+  margin: 0px 0px 30px 0px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  color:#fff;
+  text-indent: 10px;
+}
+.left_Side .Change::placeholder{
+  color:#fff;
+}
+.left_Side input[type='submit']{
+  width:35%;
+  outline: none;
+  border: none;
+  background-color: #336699;
+  text-align: center;
+  padding: 10px;
+  color:#fff;
+  border-radius: 3px;
+}
+.left_Side input[type='submit']:hover{
+  background-color:#2a76c2 ;
+}
+.right_Side {
+  flex-basis: 40%;
+}
+.right_Side div{
+  margin: 0px 0px 65px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 28%;
+}
+.right_Side div:nth-of-type(2){
+  width: 44%;
+}
+.right_Side div:last-of-type{
+  width:33%
+}
+.right_Side div i{
+  color:#fff;
+  font-size: 1.5rem;
+}
+.right_Side div span{
+  color:#fff;
+  text-transform: capitalize;
+}
+div#Foot{
+  color:#fff;
+  text-align: center;
+  margin: 25px 0px 20px 0px;
+}
+
+/*End Footer*/
